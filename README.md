@@ -10,4 +10,5 @@ Gerador de Meme usando o pacote node meme-generator. A imagem que está no host 
 1. Pasa usar é necessário que tenha o Docker e Docker-Compose instalados;
 2. Faça um clone do repositório;
 3. Instale as dependências com usando o comando '**npm install**' na pasta do projeto
-4. Inicie o container docker 
+4. Inicie a aplicação usando o comando '**docker-compose up --build**'
+5. As imagens estão na pasta 'img' na raíz do projeto. Para mudar a imagem e/ou textos do meme, basta copiar a imagem que você quer para a pasta 'img' e alterar o arquivo que ele está sendo usado no index.js.
